@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/coff"
+        android:layout_width="286dp"
+        android:layout_height="264dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="182dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/coff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="    FSS WALLET"
+        android:textColor="@color/SuperPartialwhite"
+        android:textSize="40dp"
+        android:textStyle="italic" />
+
+
+
+</RelativeLayout>
